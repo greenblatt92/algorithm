@@ -24,9 +24,11 @@ void merge(int a, int b){
 
 int main(){
     scanf("%d %d", &N, &M);
+    
     for(int i = 0; i <= N; i++){
         p[i] = -1;
     }
+    
     while(M--){
         int q, a, b;
         scanf("%d %d %d", &q, &a, &b);
