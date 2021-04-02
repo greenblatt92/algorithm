@@ -37,11 +37,16 @@ bool merge(int a, int b){
     return false;
 }
 
+void initTestCase(){
+    for(int i = 0; i < MAX_V; i++) p[i] = -1;
+}
+
 int main(){
     while(true){
-        for(int i = 0; i < MAX_V; i++) p[i] = -1;
         scanf("%d %d\n", &V, &E);
         if(V == 0) break;
+        
+        initTestCase();
         
         int ans = 0;
         for(int i = 0; i < E; i++){
