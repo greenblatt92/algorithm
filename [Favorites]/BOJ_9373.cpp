@@ -1,3 +1,6 @@
+// author : greenblatt
+// link : https://www.acmicpc.net/problem/9373
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
